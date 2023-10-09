@@ -348,3 +348,38 @@ font-weight: 400;
    
 /* <!-- Our sponsors section  -------------ends --> */
 
+/* <!-- Our services section -------------------------------------------------------------------------starts --> */
+
+.our-services-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 8rem;
+   
+}
+.service-info-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 2.5rem;
+   gap: 2.2rem;
+}
+
+.service-info{
+   padding: 1rem;
+   height: 8rem;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+.service-info p{
+   font-size: .8rem;
+   color: #727272;
+   margin: .5rem 0;
+}
+
+
+
+/* <!-- Our services section --------------ends --> */
+
