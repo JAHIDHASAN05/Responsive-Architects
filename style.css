@@ -311,3 +311,40 @@ font-weight: 400;
    100% { transform: translate(1px, -2px) rotate(-1deg); }
  }
 /* some-facts-section ---------------- ends*/
+/* <!-- Our sponsors section  ----------------------------------------------------------------------starts --> */
+.our-sponsors-section{
+   margin-top: 8rem;
+   text-align: center;
+
+}
+.sponsors-title{
+   color: var(--Dark-01, #131313);
+   font-size: 2.8125rem;
+   font-weight: 700;
+   margin-bottom: 1rem;
+}
+.sponsors-description{
+   color: var(--Dark-03, #727272);
+   font-size: 1rem;
+   font-weight: 400;
+   margin-bottom: 3rem;
+}
+
+
+.sponsors-logo-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sponsors-logo-container img{
+   width: 8rem;
+   height: 2rem;
+   -webkit-filter: grayscale(100%); 
+   filter: grayscale(100%);
+}
+
+ 
+   
+/* <!-- Our sponsors section  -------------ends --> */
+
