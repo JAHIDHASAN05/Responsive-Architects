@@ -485,6 +485,9 @@ grid-template-columns: repeat(1,1fr);
 .text-card{
    overflow: scroll;
 }
+.text-card-title{
+   margin-bottom: .3rem;
+}
 .text-card-description{
    font-size:.5rem ;
 }
