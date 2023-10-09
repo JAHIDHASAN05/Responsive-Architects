@@ -383,3 +383,26 @@ font-weight: 400;
 
 /* <!-- Our services section --------------ends --> */
 
+/* footer section styles---------------------------------------------------------starts */
+
+footer{
+   margin: 8rem 15rem;
+   margin-bottom: 5rem;
+
+}
+.footer{
+   border-radius: 0.5rem;
+   background: #FFF4E7;
+   height: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer p{
+   color: var(--Dark-02, #424242);
+   font-size: .8rem;
+   font-weight: 400;
+   }
+/* footer section styles------------ends */
+
