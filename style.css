@@ -240,3 +240,55 @@ font-weight: 400;
 }
 
  /* feature-you-container section styles ----------------------------------------------------------------------------ends */
+/* some-facts-section --------------------------------------------------------starts */
+.some-facts-section{
+   margin-top: 5rem;
+
+}
+.some-facts-container>h1{
+   color: var(--Dark-01, #131313);
+   font-size: 2.8rem;
+   font-weight: 900;
+   margin-bottom: 1.5rem;
+}
+.some-facts-container>p{
+   color: var(--Dark-03, #727272);
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+
+.some-facts-card-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 6rem;
+   text-align: center;
+}
+
+.card{
+   width: 10rem;
+   height: 10rem;
+   border: 1px solid #FF900E;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.card img{
+   width: 1.5rem;
+   height: 1.5rem;
+}
+.card h2{
+   font-size: 2rem;
+   font-weight: 800;
+   margin-top: .5rem;
+}
+.card p{
+   color: var(--Dark-03, #727272);
+   font-size: .8rem;
+   font-weight: 600;
+   margin-top: .3rem;
+}
+/* -------------------------------------- */
