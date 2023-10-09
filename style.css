@@ -485,7 +485,9 @@ grid-template-columns: repeat(1,1fr);
 .text-card{
    overflow: scroll;
 }
-
+.text-card-description{
+   font-size:.5rem ;
+}
 .feature-img-container>img{
    width: 98%;
    height: 80%;
@@ -525,7 +527,7 @@ grid-template-columns: repeat(1,1fr);
       flex-wrap: wrap;
       justify-content: space-evenly;
       row-gap: 2rem;
-      padding: 1rem;
+      padding: 1rem 0;
    }
 /* /* .our-sponsors-section media quearies--------ends */
    
@@ -542,6 +544,10 @@ grid-template-columns: repeat(1,1fr);
  text-align: center;
  margin-top: 3rem;
  margin-bottom: 3rem;
+
+}
+.footer{
+   padding: 1rem 2rem;
 
 }
    
