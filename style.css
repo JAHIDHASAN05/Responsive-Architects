@@ -8,3 +8,99 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+
+
+
+
+/* Header ,navbar and banner style starts */
+
+Header{
+    padding: 4rem 15rem;
+    width: 100%;
+    background-color:rgba(255,144,14,0.10);
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8rem;
+ }
+
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+ }
+
+ .section-title{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 2.8125rem;
+    font-weight: 700;
+ }
+
+ nav ul li{
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem; /* 144.444% */
+ }
+
+
+ /* -----banner part */
+ .banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .banner-title{
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+ }
+ .banner-description{
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+    margin-bottom: 1rem;
+ }
+
+ .btn-primary{
+    border-radius: 0.5rem;
+    background: #FF900E;    
+    border: none;
+    color: white;
+    width: 11.25rem;
+    height: 4rem;
+    flex-shrink: 0;
+    margin-bottom: 5rem;
+ }
+ .banner-container img{
+    width: 100%;
+ }
+
+
+/* Header ,navbar and banner style starts */
+/* ----------------------------------------------------------------------------------------- */
+
+
+/* main parts begins here */
