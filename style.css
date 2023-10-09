@@ -9,7 +9,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
+/* Home-and-menu-icon-mobile-device-madia-quary */
+.Home-and-menu-icon-mobile-device-madia-quary{
+   display: none;
+   width: 2rem;
+   height: 2rem;
+}
 
 
 
@@ -406,3 +411,139 @@ footer{
    }
 /* footer section styles------------ends */
 
+
+
+
+
+
+
+/* media quesries section --------------------------------------start */
+
+/* mobile device------------------------------ */
+@media screen and (max-width:668px) {
+   .Home-and-menu-icon-mobile-device-madia-quary{
+      display: block;
+   }
+ 
+/* header section media quearies------------------------------------------------------starts */
+   header{
+      padding: 0;
+   }
+   nav ul{
+      display: none;
+    }
+   .section-title{
+      font-size: 1.8rem;
+      
+   }
+   .banner-title{
+      font-size: 2.2rem;
+   }
+   .banner-description{
+      font-size: .6rem;
+   }
+/* header section media quearies-------------ends */
+/* main section media queries ---------------------------------------------------------------------------starts */
+
+
+   main{
+      margin:  0;
+   }
+
+   /* quick list section media quries ----------------------------starts */
+   .quick-list-container{
+      flex-direction: column-reverse;
+   }
+   .quick-text-container{
+      text-align: center;
+      margin-top: 5rem;
+   }
+
+   .quick-img-container{
+      grid-template-columns: repeat(1,1fr);
+      gap: 2rem;
+   }
+
+   /* quick list section media quries ----------ends */
+
+
+
+/* feature you container media queries -----------------------------------------starts */
+
+.feature-you-container{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+ .feature-img-container{
+   margin: 5rem 0;
+ }
+.feature-text-part-container{
+   margin: 0 2rem;
+
+}
+.text-card{
+   overflow: scroll;
+}
+
+.feature-img-container>img{
+   width: 98%;
+   height: 80%;
+   margin-right: 1rem;
+   margin-left: 1rem;
+}
+
+/* feature you container media queries ----    ends */
+
+
+
+
+
+/* some facts section media queries ------------------------------------------------------------starts */
+
+   .some-facts-container{
+      text-align: center;
+      padding: 1rem;
+
+
+   }
+
+   .some-facts-card-container{
+      flex-direction: column;
+      gap: 2rem;
+   }
+/* some facts section media queries ------------ends */
+/* .our-sponsors-section media quearies----------------------------------------------------------starts */
+
+
+
+   .our-sponsors-section{
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.8rem;
+
+   }
+   .sponsors-logo-container{
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      row-gap: 2rem;
+      padding: 1rem;
+   }
+/* /* .our-sponsors-section media quearies--------ends */
+   
+
+
+.service-info-container{
+   flex-direction: column;
+}
+.service-info{
+   width: 92%;
+}
+   footer{
+ margin: 0;
+ text-align: center;
+ margin-top: 3rem;
+ margin-bottom: 3rem;
+
+}
+   
+}
