@@ -144,9 +144,9 @@ Header{
 
 
 
- /* feature-you-container section styles starts */
+ /* feature-you-container section styles ---------------------------------------------------------------------------------starts */
 
-/* feature-title and description styles------------------------------------------------------ */
+/* feature-title and description styles-------------------- */
 
 
  .feature-you-container{
@@ -185,7 +185,7 @@ Header{
    width: 31rem;
  }
 /* feature-title and description ends------ */
-/* feature-text-card-container------------------------------------------------------styles starts */
+/* feature-text-card-container---------------------------styles starts */
 .feature-text-card-container{
    display: flex;
    flex-direction: column;
@@ -215,3 +215,28 @@ font-size: .8rem;
 font-style: normal;
 font-weight: 400;
 }
+
+
+/* feature-btn----------------------------------styles */
+.button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1.5rem;
+}
+.button button{
+   color: #FFF;
+   text-align: center;
+   font-weight: 700;
+   border-radius: 0.5rem;
+   background: #FF900E;
+   height: 5rem;
+   width: 10rem;
+   border: none;
+}
+
+.button button h2{
+   font-size: 2.0625rem;
+}
+
+ /* feature-you-container section styles ----------------------------------------------------------------------------ends */
